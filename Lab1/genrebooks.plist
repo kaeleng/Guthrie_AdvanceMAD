@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Fantasy</key>
+	<array>
+		<string>Harry Potter</string>
+		<string>The Lord of The Rings</string>
+		<string>The Chronicles of Narnia</string>
+		<string>The Hobbit</string>
+		<string>Eragon</string>
+	</array>
+	<key>Historical Fiction</key>
+	<array>
+		<string>The Book Thief</string>
+		<string>The Nightingale</string>
+		<string>All The Light We Cannot See</string>
+		<string>Sarah’s Key</string>
+		<string>South of Broad</string>
+	</array>
+	<key>Classics</key>
+	<array>
+		<string>The Great Gatsby</string>
+		<string>The Catcher in the Rye</string>
+		<string>Lord of the Flies</string>
+		<string>To Kill a Mockingbird</string>
+		<string>Pride and Prejudice</string>
+	</array>
+	<key>Nonfiction</key>
+	<array>
+		<string>In Cold Blood</string>
+		<string>Unbroken</string>
+		<string>Hidden Figures</string>
+		<string>Lion</string>
+		<string>Into the Wild</string>
+	</array>
+	<key>Science Fiction</key>
+	<array>
+		<string>The Martian</string>
+		<string>Frankenstein</string>
+		<string>Ender’s Game</string>
+		<string>A Wrinkle in Time</string>
+		<string>The Hunger Games</string>
+	</array>
+	<key>Children’s</key>
+	<array>
+		<string>Green Eggs and Ham</string>
+		<string>The Very Hungry Caterpillar</string>
+		<string>Charlotte’s Web</string>
+		<string>The Giving Tree</string>
+		<string>Oh, The Places You’ll Go</string>
+	</array>
+	<key>Fiction</key>
+	<array>
+		<string>The Girl on the Train</string>
+		<string>My Sister’s Keeper</string>
+		<string>The Girl With The Dragon Tattoo</string>
+		<string>The Help</string>
+		<string>The Time Traveler’s Wife</string>
+	</array>
+</dict>
+</plist>

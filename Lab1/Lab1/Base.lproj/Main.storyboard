@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Genres-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Lab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8s1-PF-Srq">
+                                <rect key="frame" x="27.5" y="102" width="320" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="9pv-A4-QxB" id="Kzr-cb-qur"/>
+                                    <outlet property="delegate" destination="9pv-A4-QxB" id="cNo-vU-pNG"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book Genres" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OAC-Vu-lhW">
+                                <rect key="frame" x="110.5" y="20" width="155" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="yUU-HQ-532"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CL4-2E-4hN">
+                                <rect key="frame" x="62.5" y="326" width="250" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="X3V-2l-8zg"/>
+                                    <constraint firstAttribute="height" constant="93" id="mIw-aT-TYG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CL4-2E-4hN" firstAttribute="top" secondItem="8s1-PF-Srq" secondAttribute="bottom" constant="25" id="8AW-6u-xx2"/>
+                            <constraint firstItem="8s1-PF-Srq" firstAttribute="top" secondItem="OAC-Vu-lhW" secondAttribute="bottom" constant="8" symbolic="YES" id="Ec5-2Y-i2s"/>
+                            <constraint firstItem="OAC-Vu-lhW" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" constant="20" symbolic="YES" id="GKB-ak-SGR"/>
+                            <constraint firstItem="CL4-2E-4hN" firstAttribute="centerX" secondItem="OAC-Vu-lhW" secondAttribute="centerX" id="Vdw-k9-cRT"/>
+                            <constraint firstItem="OAC-Vu-lhW" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="-33" id="ZgA-T2-FVL"/>
+                            <constraint firstItem="OAC-Vu-lhW" firstAttribute="centerX" secondItem="8s1-PF-Srq" secondAttribute="centerX" id="cXJ-97-Jjt"/>
+                            <constraint firstItem="CL4-2E-4hN" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="fmP-1N-kma"/>
+                            <constraint firstItem="CL4-2E-4hN" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="fuH-2K-jDQ"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="CL4-2E-4hN" secondAttribute="bottom" constant="130" id="gKc-NW-zwS"/>
+                            <constraint firstItem="8s1-PF-Srq" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="hbx-9a-Bxu"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="CL4-2E-4hN" secondAttribute="bottom" constant="10" id="htA-6P-Pmv"/>
+                            <constraint firstItem="CL4-2E-4hN" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="15" id="iAy-Az-DdK"/>
+                            <constraint firstItem="8s1-PF-Srq" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="j2h-BQ-mpk"/>
+                            <constraint firstItem="CL4-2E-4hN" firstAttribute="centerX" secondItem="8s1-PF-Srq" secondAttribute="centerX" id="lxx-2X-GK5"/>
+                            <constraint firstItem="8s1-PF-Srq" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="82" id="oaf-Iq-I08"/>
+                            <constraint firstItem="8s1-PF-Srq" firstAttribute="centerX" secondItem="CL4-2E-4hN" secondAttribute="centerX" id="qxq-uI-5CT"/>
+                            <constraint firstItem="CL4-2E-4hN" firstAttribute="top" secondItem="8s1-PF-Srq" secondAttribute="bottom" constant="8" id="s1k-WZ-apE"/>
+                            <constraint firstItem="OAC-Vu-lhW" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="113" id="vWA-km-j16"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="CL4-2E-4hN" secondAttribute="bottom" constant="206" id="wIe-tf-R4p"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="gKc-NW-zwS"/>
+                                <exclude reference="htA-6P-Pmv"/>
+                                <exclude reference="wIe-tf-R4p"/>
+                                <exclude reference="Ec5-2Y-i2s"/>
+                                <exclude reference="hbx-9a-Bxu"/>
+                                <exclude reference="j2h-BQ-mpk"/>
+                                <exclude reference="oaf-Iq-I08"/>
+                                <exclude reference="qxq-uI-5CT"/>
+                                <exclude reference="GKB-ak-SGR"/>
+                                <exclude reference="ZgA-T2-FVL"/>
+                                <exclude reference="cXJ-97-Jjt"/>
+                                <exclude reference="vWA-km-j16"/>
+                                <exclude reference="8AW-6u-xx2"/>
+                                <exclude reference="Vdw-k9-cRT"/>
+                                <exclude reference="fmP-1N-kma"/>
+                                <exclude reference="fuH-2K-jDQ"/>
+                                <exclude reference="iAy-Az-DdK"/>
+                                <exclude reference="lxx-2X-GK5"/>
+                                <exclude reference="s1k-WZ-apE"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="gKc-NW-zwS"/>
+                                <include reference="j2h-BQ-mpk"/>
+                                <include reference="oaf-Iq-I08"/>
+                                <exclude reference="qxq-uI-5CT"/>
+                                <include reference="GKB-ak-SGR"/>
+                                <include reference="cXJ-97-Jjt"/>
+                                <include reference="fmP-1N-kma"/>
+                                <include reference="s1k-WZ-apE"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="htA-6P-Pmv"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Genres" image="book" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="genreLabel" destination="CL4-2E-4hN" id="KHv-tH-nUB"/>
+                        <outlet property="genrePicker" destination="8s1-PF-Srq" id="0fc-rj-f7Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
+        </scene>
+        <!--Music-->
+        <scene sceneID="91g-Fc-Z8H">
+            <objects>
+                <viewController id="cyA-h7-QCa" customClass="ThirdViewController" customModule="Lab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R3Z-A4-Z6a">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6FW-dt-c0O">
+                                <rect key="frame" x="172.5" y="318.5" width="30" height="30"/>
+                                <state key="normal" title="Play"/>
+                                <connections>
+                                    <action selector="actionButton:" destination="cyA-h7-QCa" eventType="touchUpInside" id="rw0-Pr-h1b"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Listen to music while you browse books!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHx-BG-yFk">
+                                <rect key="frame" x="33.5" y="161" width="308" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="GGO-Yz-cUV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6FW-dt-c0O" firstAttribute="centerX" secondItem="R3Z-A4-Z6a" secondAttribute="centerX" id="QG1-Rw-gyM"/>
+                            <constraint firstItem="QHx-BG-yFk" firstAttribute="top" secondItem="WtJ-Qu-T0g" secondAttribute="top" constant="141" id="ZEs-ca-qQG"/>
+                            <constraint firstItem="6FW-dt-c0O" firstAttribute="top" secondItem="QHx-BG-yFk" secondAttribute="bottom" constant="67.5" id="cul-eF-yhl"/>
+                            <constraint firstItem="QHx-BG-yFk" firstAttribute="centerX" secondItem="R3Z-A4-Z6a" secondAttribute="centerX" id="juj-Yi-Rag"/>
+                            <constraint firstItem="6FW-dt-c0O" firstAttribute="centerY" secondItem="R3Z-A4-Z6a" secondAttribute="centerY" id="re0-YL-top"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WtJ-Qu-T0g"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Music" image="65-note" id="jtT-K9-3ch"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wAH-GS-6zs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1421.5999999999999" y="-321.58920539730138"/>
+        </scene>
+        <!--iBooks-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Lab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWV-mA-vB6">
+                                <rect key="frame" x="144" y="318.5" width="87" height="30"/>
+                                <state key="normal" title="Open iBooks"/>
+                                <connections>
+                                    <action selector="gotobooks:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="QM3-HZ-1co"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BWV-mA-vB6" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="UDk-Hy-CUQ"/>
+                            <constraint firstItem="BWV-mA-vB6" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" id="kFH-jX-Wx0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="iBooks" image="open-book_25x25" id="cPa-gy-q4n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="360"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="cyA-h7-QCa" kind="relationship" relationship="viewControllers" id="F42-kN-cG7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="65-note" width="15" height="24"/>
+        <image name="book" width="25" height="25"/>
+        <image name="open-book_25x25" width="25" height="25"/>
+    </resources>
+</document>
