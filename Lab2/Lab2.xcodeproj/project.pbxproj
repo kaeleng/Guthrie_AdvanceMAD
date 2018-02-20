@@ -16,6 +16,7 @@
 		170594952033829A0003D6EF /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170594942033829A0003D6EF /* Classes.swift */; };
 		170594972036185A0003D6EF /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170594962036185A0003D6EF /* DetailTableViewController.swift */; };
 		1705949920389D4A0003D6EF /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705949820389D4A0003D6EF /* AddViewController.swift */; };
+		170594B9203A47670003D6EF /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170594B8203A47670003D6EF /* SearchResultsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		170594942033829A0003D6EF /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
 		170594962036185A0003D6EF /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		1705949820389D4A0003D6EF /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		170594B8203A47670003D6EF /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				1705948220337FC20003D6EF /* ViewController.swift */,
 				170594942033829A0003D6EF /* Classes.swift */,
 				1705948420337FC20003D6EF /* Main.storyboard */,
+				170594B8203A47670003D6EF /* SearchResultsTableViewController.swift */,
 				1705949820389D4A0003D6EF /* AddViewController.swift */,
 				170594962036185A0003D6EF /* DetailTableViewController.swift */,
 				1705948720337FC20003D6EF /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 			files = (
 				1705949920389D4A0003D6EF /* AddViewController.swift in Sources */,
 				170594972036185A0003D6EF /* DetailTableViewController.swift in Sources */,
+				170594B9203A47670003D6EF /* SearchResultsTableViewController.swift in Sources */,
 				1705948320337FC20003D6EF /* ViewController.swift in Sources */,
 				1705948120337FC20003D6EF /* AppDelegate.swift in Sources */,
 				170594952033829A0003D6EF /* Classes.swift in Sources */,

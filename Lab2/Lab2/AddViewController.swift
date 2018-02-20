@@ -11,8 +11,7 @@ import UIKit
 class AddViewController: UIViewController {
     
     var newAssignment = String()
-
-   // @IBOutlet weak var dueDate: UITextField!
+       
     @IBOutlet weak var addAssignment: UITextField!
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
