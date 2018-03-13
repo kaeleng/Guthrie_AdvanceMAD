@@ -21,7 +21,7 @@
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="e7M-hC-Suv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.68951201438903809" green="0.85295784473419189" blue="0.77085727453231812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.85375972114843768" green="0.85375972114843768" blue="0.85375972114843768" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="lsn-aD-Pjc">
                             <size key="itemSize" width="199" height="180"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -41,11 +41,12 @@
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhx-cF-zrR">
                                             <rect key="frame" x="10" y="141" width="179" height="29"/>
+                                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="179" id="fL3-wd-QGb"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
-                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                             <size key="shadowOffset" width="0.0" height="0.0"/>
                                         </label>
@@ -88,11 +89,11 @@
         <scene sceneID="ste-Ym-dkr">
             <objects>
                 <viewController id="IGT-2A-ibL" customClass="AddViewController" customModule="Project1" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="l8m-t5-j9x">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="l8m-t5-j9x">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bG4-Hd-GhR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bG4-Hd-GhR">
                                 <rect key="frame" x="0.0" y="98" width="383" height="569"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bG4-Hd-GhR" secondAttribute="height" multiplier="365:277" constant="-366.31768953068593" id="JiB-8D-3dj"/>
@@ -100,7 +101,7 @@
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="What adventure did you go on?" borderStyle="roundedRect" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bQb-av-Nb5">
-                                <rect key="frame" x="64" y="151" width="255" height="30"/>
+                                <rect key="frame" x="-127.5" y="151" width="255" height="30"/>
                                 <color key="backgroundColor" red="0.51774245500564575" green="0.74986976385116577" blue="0.74699866771697998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="255" id="D3d-9j-HLo"/>
@@ -110,7 +111,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDp-dP-dSG">
-                                <rect key="frame" x="154" y="209" width="75" height="75"/>
+                                <rect key="frame" x="-37.5" y="209" width="75" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="AZd-kG-7KP"/>
                                     <constraint firstAttribute="height" constant="75" id="q74-KF-Yha"/>
@@ -274,7 +275,7 @@
                                     <action selector="dateChanged:" destination="ZMa-uY-xqK" eventType="valueChanged" id="Acq-ud-99c"/>
                                 </connections>
                             </datePicker>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eEl-UL-cGX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eEl-UL-cGX">
                                 <rect key="frame" x="16" y="470" width="343" height="181"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="eEl-UL-cGX" secondAttribute="height" multiplier="343:181" id="31o-a2-LJb"/>
